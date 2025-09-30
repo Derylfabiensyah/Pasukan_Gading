@@ -13,11 +13,11 @@ return new class extends Migration
     {
         Schema::create('tamu', function (Blueprint $table) {
             $table->id();
-            $table->string("nama");
-            $table->string("email");
-            $table->string("alamat");
-            $table->string("tanggal");
-            $table->string("keperluan");
+            $table->string("Nama");
+            $table->string("Email");
+            $table->string("Alamat");
+            $table->string("Tanggal");
+            $table->string("Keperluan");
             $table->timestamps();
         });
     }
